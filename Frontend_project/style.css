@@ -1,0 +1,64 @@
+body {
+    height: auto;
+    width: auto;
+    background-color: antiquewhite;
+}
+
+h1 {
+    color: rgba(175, 10, 205, 0.614);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana,
+        sans-serif;
+    border: 18px;
+}
+
+.box {
+    text-align: center;
+    width: auto;
+    border: 5px solid whitesmoke;
+    background-color: whitesmoke;
+    padding: 4px;
+    margin: 12px;
+}
+
+button {
+    padding: 10px 20px;
+    margin: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+#start {
+    background-color: #f26113;
+    color: white;
+}
+
+#stop {
+    background-color: #830776;
+    color: white;
+}
+
+button:hover {
+    transform: scale(1.1);
+    opacity: 0.9;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+}
+
+@media screen and (max-width: 767px) {
+    /* Styles for mobile devices (up to 767px) */
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+    /* Styles for tablets (768px to 1023px) */
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1200px) {
+    /* Styles for laptops (1024px to 1200px) */
+}
+
+@media screen and (min-width: 1200px) {
+    /* Styles for desktops (1200px and above) */
+}
